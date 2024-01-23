@@ -1,22 +1,35 @@
+# File konfigurasi pubspec.yaml untuk proyek Flutter
+
+# Nama proyek
 name: kidsmonitoring
+
+# Versi proyek
 version: 1.0.0+1
+
+# Pengaturan untuk publikasi paket (pada saat ini diatur ke 'none', mungkin untuk pengembangan lokal)
 publish_to: none
+
+# Deskripsi proyek
 description: A new Flutter project.
-environment: 
+
+# Versi minimal SDK Flutter yang diperlukan
+environment:
   sdk: '>=3.2.3 <4.0.0'
 
-dependencies: 
+# Daftar dependensi paket
+dependencies:
   cupertino_icons: ^1.0.2
   get: 4.6.6
   animations: ^2.0.11
-  flutter: 
+  flutter:
     sdk: flutter
 
-dev_dependencies: 
+# Daftar dependensi pengembangan (dev_dependencies)
+dev_dependencies:
   flutter_lints: ^2.0.0
-  flutter_test: 
+  flutter_test:
     sdk: flutter
 
-flutter: 
+# Pengaturan Flutter
+flutter:
   uses-material-design: true
-
